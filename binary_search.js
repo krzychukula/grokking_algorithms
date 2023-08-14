@@ -39,3 +39,7 @@ assert(
   getMaxGuessCount(myList.length),
   "Max guess count for 6 element array is 3"
 );
+
+assert(getMaxGuessCount(128), "Max guess count for 128 element array is 7");
+
+assert(getMaxGuessCount(128 * 2), "Max guess count for 256 element array is 8");
